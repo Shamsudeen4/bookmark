@@ -1,0 +1,260 @@
+@media screen and (max-width: 950px) {
+   body{
+    width: 100%;
+
+    /* overflow: hidden; */
+   }
+   section.fp{
+    padding: 8% 0;
+   }
+    
+
+nav.top{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 6%;
+}
+.fptxtimg{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+div.fptxt{
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div.head1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+div.subtxt{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+div.head1 h1{
+    font-family: "l";
+    font-size: 28px;
+}
+
+div.subtxt h3{
+    /* width: 90vw; */
+    font-family: "l";
+    /* font-size: 12px; */
+        
+}
+div.image1 img{
+    width: 90vw;
+}
+div.box{
+position: absolute;
+top: 30%;
+left: 40%;
+height: 15vh;
+width: 60vw;
+
+}
+
+div.btns{
+    height: 6vh;
+   align-items: center;
+   padding: 40px 0;
+   
+   
+}
+button.btn1{
+    padding: 10px 0 ;
+    width: 40vw;
+    font-size: 15px;
+}
+button.btn2{
+    padding: 10px 0 ;
+    width: 40vw;
+    font-size: 15px;
+}
+div.head2 h2{
+    font-size: 23px;
+    font-family: "l";
+}
+div.head2 h4{
+    width: 90vw;
+    font-size: 18px;
+    font-family: "l";
+}
+div.tabs{
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 15%;
+   }
+   button.btn6{
+    border-bottom: 1px solid red;
+    font-size: 20px;
+}
+div.sptxtimg,div.sptxtimg2,div.sptxtimg3{
+    flex-direction: column;
+}
+div.image2 img{
+    padding: 22% 0;
+    width: 85vw;
+}
+div.image3 img{
+    padding: 15% 0;
+    width: 80vw;
+}
+div.image4 img{
+    padding: 15% 0;
+    width: 80vw;
+}
+div.text{
+    align-items: center;
+    gap: 10px;
+}
+div.text h2{
+    font-size: 25px;
+}
+div.text h4{
+    font-size: 18px;
+    width: 90vw;
+    text-align: center;
+    padding: 4px 0;
+}
+div.box2{
+    width: 80vw;
+    height: 20vh;
+    top: 166%;
+}
+.text button.btn3{
+padding:0px 40px;
+width: 60vw;
+}
+
+div.tptxt{
+    h2{
+        font-size: 23px;
+        font-family: "l";
+    }
+    h4{
+        width: 80vw;
+        line-height: 30px;
+    }
+}
+div.brtabs{
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 40px;
+    
+}
+div.chrome, div.firefox, div.opera{
+    gap: 20px;
+    padding: 30px 30px;
+    text-align: center;
+}
+div.faqs{
+    h2{
+        font-size: 20px;
+        width: 70vw;
+    }
+    h4{
+        font-size: 18px;
+        width: 90vw;
+        padding-bottom: 5%;
+    }
+}
+div.accordion{
+    width:100% ;
+}
+div.bttn, div.bttn2, div.bttn3,div.bttn4 {
+    width: 80vw;
+    gap: 0px;
+    
+    justify-content: space-between;
+    align-items: center;
+    button{
+        font-size: 14px;
+        
+    }
+    img{
+        width: 4vw;
+    }
+}
+div.bkmtxt h4{
+    width: 90vw;
+    font-size: 15px;
+    line-height: 22px;
+}
+div.accordion button.btn5{
+width: 45vw;
+height: 7vh;
+}
+div.upper{
+    gap: 15px;
+}
+div.fl h4{
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+form.emai{
+    display: flex;
+    flex-direction: column;
+    input{
+        width: 80vw;
+        height: 6vh;
+    }
+    button{
+        
+        width: 80vw;
+        height: 6vh;
+    }
+}
+div.sl h2{
+    width: 90vw;
+    font-size: 25px;
+}
+
+div.down{
+    padding: 10%;
+    flex-direction: column;
+    gap: 40px;
+}
+div.leftside{
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+div.linkside{
+    flex-direction: column;
+}
+div.mobilebtn{
+    
+    display: block;
+}
+ul.listt{
+ display: none;
+}
+div.newlinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(231, 69%, 60%);
+    padding: 20px 0;
+    gap: 8px;
+    color: white;
+    display: none;
+    h3{
+        text-transform: uppercase;
+        font-family: "l";
+
+    } 
+    
+}
+}
+
