@@ -131,7 +131,8 @@ section.fp{
  div.box2{
      width: 80vw;
      height: 20vh;
-     top: 205%;
+     top: 152%;
+     display: none;
  }
  .text button.btn3{
  padding:0px 40px;
